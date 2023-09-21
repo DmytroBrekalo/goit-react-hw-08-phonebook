@@ -1,0 +1,19 @@
+.user_menu {
+  display: flex;
+  gap: 50px;
+}
+.user_information {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: rgb(119, 118, 118);
+  font-size: 24px;
+}
+.log_out {
+  color: #f3d789;
+  text-decoration: none;
+  font-size: 24px;
+}
+.log_out:focus {
+  color: white;
+}

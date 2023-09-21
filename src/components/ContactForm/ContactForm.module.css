@@ -1,0 +1,25 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.label {
+  display: grid;
+  grid-template-columns: 105px 170px;
+  color: #f3d789;
+}
+.input {
+  background-color: #272522;
+  border: 1px solid #706340;
+  border-radius: 5px;
+  color: #f3d789;
+}
+.button {
+  border: 1px solid #272522;
+  border-radius: 5px;
+  background-color: #f3d789;
+  color: #312e2b;
+  display: block;
+  margin: 0 auto;
+  width: 90px;
+}
